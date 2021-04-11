@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(12, 139, 243);
+}
+.wrapper {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 15vw;
+  color: aliceblue;
+  letter-spacing: 0.1em;
+  font-size: 50px;
+  line-height: 2;
+}
+
+.title {
+  text-align: center;
+  color: darkgoldenrod;
+}
+
+ul {
+  padding: 0;
+}
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 26px;
+  color: greenyellow;
+  line-height: 2;
+  transition: 250ms ease-in-out;
+}
+
+li {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-right: 25px;
+  /* flex-direction: column; */
+}
+
+a:hover,
+a:target {
+  cursor: pointer;
+  color: tomato;
+  transform: scale(1.3);
+}
